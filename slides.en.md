@@ -18,9 +18,9 @@ transition: slide-left
 <!-- Language Switcher -->
 
 <div class="fixed top-4 right-4 z-50 flex gap-2 items-center bg-black/40 backdrop-blur-md px-3 py-1 rounded-full border border-white/10">
-  <button class="text-xs text-white/50 hover:text-white transition uppercase font-bold tracking-wider">SK</button>
+  <a href="/" class="text-xs text-white/50 hover:text-white transition uppercase font-bold tracking-wider">SK</a>
   <span class="text-white/20">|</span>
-  <button class="text-xs text-brand-primary font-bold uppercase tracking-wider">EN</button>
+  <span class="text-xs text-brand-primary font-bold uppercase tracking-wider">EN</span>
 </div>
 
 <div class="relative z-10 flex flex-col items-center justify-center h-full">

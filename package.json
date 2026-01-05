@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "slidev --open",
     "dev:en": "slidev slides.en.md --open",
-    "build": "slidev build",
+    "build": "slidev build --base / --out dist && slidev build slides.en.md --base /en/ --out dist/en",
     "export": "slidev export"
   },
   "dependencies": {

@@ -5,10 +5,10 @@ class: text-center
 highlighter: shiki
 lineNumbers: false
 info: |
-    ## Marián Stančík - AI Riešenia
-    Portfólio Prezentácia
+  ## Marián Stančík - AI Riešenia
+  Portfólio Prezentácia
 drawings:
-    persist: false
+  persist: false
 css: unocss
 transition: slide-left
 ---
@@ -19,7 +19,7 @@ transition: slide-left
 <div class="fixed top-4 right-4 z-50 flex gap-2">
   <span class="text-white font-bold border-b-2 border-brand-primary">SK</span>
   <span class="text-white/40">|</span>
-  <a href="#" onclick="alert('Pre anglickú verziu spustite v termináli: npm run dev:en')" class="text-white/60 hover:text-white transition">EN</a>
+  <a href="/en/" class="text-white/60 hover:text-white transition">EN</a>
 </div>
 
 <div class="relative z-10 flex flex-col items-center justify-center h-full">
