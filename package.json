@@ -1,0 +1,19 @@
+{
+  "name": "marian-ai-portfolio",
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open",
+    "dev:en": "slidev slides.en.md --open",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.48.0",
+    "@slidev/theme-default": "*",
+    "@unocss/reset": "^0.58.0",
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.57.0"
+  }
+}
